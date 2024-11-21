@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+
+<body>
+    <h1>Login</h1>
+    <form action="./loginsuccess.html" method="get">
+    <table border="2" cellpadding="20" cellspacing="10">
+        <tr>
+            <td><input type="text" name="Username" id="Username" placeholder="Username" pattern="[\da-zA-z]+" required></td>
+        <tr>
+            <td><input type="text" name="Password" id="Password" placeholder="Password"  pattern=".{8,16}"
+                title="Password must contain between 8 to 16 characters" required></td>
+        </tr>
+        <tr>
+            <td><center><input type="submit" value="Login"></center><br>
+             <a href="./passwordreset.html">Forgot?</a>         
+        &emsp13; &emsp13; &emsp13; &emsp13; &emsp13; &emsp13; &emsp13;<a href="./register.html">Register here</a>
+        </td>
+        </tr>
+
+        
+    </table>
+    </form>
+</body>
+
+</html>
